@@ -1,0 +1,181 @@
+{
+    "comment": {
+        "prefix": "comment",
+        "body": [
+            "(comment $0 )"
+        ],
+        "description": ""
+    },
+    "condp": {
+        "prefix": "condp",
+        "body": [
+            "(condp ${1:pred} ${2:expr}",
+            "$0)"
+        ],
+        "description": ""
+    },
+    "defmethod": {
+        "prefix": "defmethod",
+        "body": [
+            "(defmethod ${1:name} ${2:match}",
+            "[${3:args}]",
+            "$0)"
+        ]
+    },
+    "defmulti": {
+        "prefix": "defmulti",
+        "body": [
+            "(defmulti ${1:name} ${2:dispatch-fn})"
+        ]
+    },
+    "defn": {
+        "prefix": "defn",
+        "body": [
+            "(defn ${1:name} ${2:",
+            "${3:doc-string}",
+            "}[${4:arg-list}]$0)"
+        ],
+        "description": ""
+    },
+    "defprotocol": {
+        "prefix": "defprotocol",
+        "body": [
+            "(defprotocol ${1:Name}",
+            "$0)"
+        ],
+        "description": ""
+    },
+    "defrecord": {
+        "prefix": "defrecord",
+        "body": [
+            "(defrecord ${1:Name} [${2:fields}]",
+            "${3:Protocol}",
+            "$0)"
+        ],
+        "description": ""
+    },
+    "deftype": {
+        "prefix": "deftype",
+        "body": [
+            "(deftype ${1:Name} [${2:fields}]",
+            "${3:Protocol}",
+            "$0)"
+        ],
+        "description": ""
+    },
+    "fresh": {
+        "prefix": "fresh",
+        "body": [
+            "(fresh [${1:vars}]",
+            "$0)"
+        ],
+        "description": ""
+    },
+    "fn": {
+        "prefix": "fn",
+        "body": [
+            "(fn [${1:arg-list}] $0)"
+        ],
+        "description": ""
+    },
+    "if": {
+        "prefix": "if",
+        "body": [
+            "(if ${1:test-expr}",
+            "${2:then-expr}",
+            "${3:else-expr})"
+        ],
+        "description": ""
+    },
+    "import": {
+        "prefix": "import",
+        "body": [
+            "(:import [${1:package}])"
+        ],
+        "description": ""
+    },
+    "keyword-args": {
+        "prefix": "kwargs",
+        "body": [
+            "& {:keys [${1:keys}] :or {${2:defaults}}}"
+        ],
+        "description": ""
+    },
+    "let": {
+        "prefix": "let",
+        "body": [
+            "(let [$0])"
+        ],
+        "description": ""
+    },
+    "letfn": {
+        "prefix": "letfn",
+        "body": [
+            "(letfn [(${1:name) [${2:args}]",
+            "$0)])"
+        ],
+        "description": ""
+    },
+    "method": {
+        "prefix": "method",
+        "body": [
+            "(${1:name} [${2:this} ${3:args}]",
+            "$0)"
+        ],
+        "description": ""
+    },
+    "ns": {
+        "prefix": "ns",
+        "body": [
+            "(ns ${1:clojure-expected-ns}",
+            "$0)"
+        ],
+        "description": ""
+    },
+    "perf": {
+        "prefix": "perf",
+        "body": [
+            "(dotimes [_ 10]",
+            "(time",
+            "(dotimes [_ ${1:times}]",
+            "$0)))"
+        ],
+        "description": ""
+    },
+    "protocol-method": {
+        "prefix": "protocol-method",
+        "body": [
+            "(${1:name} [${2:this} ${3:args}])"
+        ],
+        "description": ""
+    },
+    "refer": {
+        "prefix": "refer",
+        "body": [
+            "(:refer-clojure :exclude [$0])"
+        ],
+        "description": ""
+    },
+    "require": {
+        "prefix": "require",
+        "body": [
+            "(:require [${1:namespace} :as [$0]])"
+        ],
+        "description": ""
+    },
+    "run-n": {
+        "prefix": "run-n",
+        "body": [
+            "(run ${1:n} [q]",
+            "$0)"
+        ],
+        "description": ""
+    },
+    "use": {
+        "prefix": "use",
+        "body": [
+            "(:use [${1:namespace} :only [$0]])"
+        ],
+        "description": ""
+    }
+}

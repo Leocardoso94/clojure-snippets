@@ -1,0 +1,21 @@
+{
+    "name": "clojure-snippets",
+    "displayName": "Clojure snippets",
+    "description": "Clojure code snippets for VS Code",
+    "version": "0.0.1",
+    "publisher": "leocardoso94",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "clojure",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
