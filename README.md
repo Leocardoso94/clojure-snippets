@@ -1,5 +1,5 @@
 
-#  clojure-snippets 
+#  Clojure snippets
  
 [Clojure snippets extension for Visual Studio Code!](https://marketplace.visualstudio.com/items?itemName=leocardoso94.clojure-snippets)
   
