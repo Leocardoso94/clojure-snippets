@@ -17,5 +17,10 @@
                 "path": "./snippets/snippets.json"
             }
         ]
-    }
+    },
+    "main": "index.js",
+    "repository": "https://github.com/Leocardoso94/clojure-snippets.git",
+    "author": "Leonardo Cardoso <leocardosoti@gmail.com>",
+    "license": "MIT",
+    "icon": "images/icon.png",
 }
