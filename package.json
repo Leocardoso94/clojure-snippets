@@ -10,6 +10,11 @@
     "categories": [
         "Snippets"
     ],
+    "keywords": [
+        "clojure",
+        "lisp",
+        "snippets"
+    ],
     "contributes": {
         "snippets": [
             {
