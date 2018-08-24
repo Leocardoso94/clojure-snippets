@@ -3,7 +3,7 @@
  
 Clojure snippets extension for Visual Studio Code!
   
-![gif](gif/mygif.gif)
+![gif](https://raw.githubusercontent.com/Leocardoso94/clojure-snippets/master/gifs/mygif.gif)
   
 ##  Release Notes
 
